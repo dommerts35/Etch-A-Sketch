@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+.content{
+    flex:1;
+}
+
+.Button{
+    padding: 8px;
+    background-color: yellow;
+    border-radius: 16px;
+}
+.header,.footer{
+    display: flex;
+    justify-content:  center;
+    background-color: rgb(252, 241, 33);
+    font-size: 20px;
+    padding: 8px
+}
+
+.sketchpad{
+    margin-top: 20px;
+    height: 960px;
+    width:960px;
+    background-color: rgb(255, 255, 254);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.rowdiv{
+    display: flex;
+    flex: 1;
+}
+.cell{
+    flex:1;
+    border:1px solid black;
+}
